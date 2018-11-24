@@ -56,6 +56,11 @@ let chart = null;
 function initChart(data, field) {
     let points = data.map(p => p[field])
     let counts = Object.entries(_.countBy(points))
+    if (field !== 'Co2') {
+        counts = counts.sort(([ka, va], [kb, vb]) => {
+            return ka.localeCompare(kb);
+        })
+    }
     let labels = counts.map(([k, v], i) => {
         return k;
     });
