@@ -30,7 +30,7 @@ Dillinger uses a number of open source projects to work properly:
 
 ### Demo
 
-Catch TraffiEye in action:
+Catch TrafficEye in action:
 
 
 ### Todos
