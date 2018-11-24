@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TrafficAye</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+    integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+</head>
+<body>
+    <h1>TrafficAye</h1>
+    <div id="map"></div>
+    <select id="dropdown">
+        <option value="Co2">CO2</option>
+        <option value="BodyTypeDesc2">Body type</option>
+        <option value="Body Type Desc">Car type</option>
+        <option value="Propulsion Type Desc">Fuel type</option>
+        <option value="Euro">Euro class</option>
+        <option value="Make Desc">Make</option>
+    </select>
+    <div style="height: 400px">
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
