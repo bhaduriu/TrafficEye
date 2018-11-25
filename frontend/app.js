@@ -44,8 +44,7 @@ function addMarkers(site) {
         marker.on('click', () => {
             var win = window.open('https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js', '_blank');
             win.focus();
-            currentSite = site.id;
-            loadData(currentSite);
+
         })
         marker.addTo(mymap);
     })
