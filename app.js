@@ -42,6 +42,8 @@ function addMarkers(site) {
     site.forEach(site => {
         let marker = L.marker([site.lat, site.lon]);
         marker.on('click', () => {
+            var win = window.open('https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js', '_blank');
+            win.focus();
             currentSite = site.id;
             loadData(currentSite);
         })
