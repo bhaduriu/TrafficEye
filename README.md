@@ -32,7 +32,7 @@ Dillinger uses a number of open source projects to work properly:
 
 ### Demo
 
-Catch TrafficEye in action:
+Catch TrafficEye in action: https://trafficaye.fi/
 
 
 ### Todos
