@@ -1,6 +1,8 @@
-# TrafficEye
+# TrafficAye
 
-[![N|Solid](https://i.postimg.cc/D05ktKV2/TAeye.png)](https://github.com/Vehemos/TrafficEye)
+[TrafficAye Website](https://trafficaye.fi/)
+</br>
+[TrafficAye Project Details](https://projects.hackjunction.com/projects/junction-2018/5bf8710a6a75040015931e70)
 
 
 TrafficEyehelps you make smart business decisions based on traffic flow.
